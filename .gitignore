@@ -1,0 +1,7 @@
+*
+!/.gitignore
+!/Project/
+!/Project/Group Project/
+!/Project/Group Project/**
+
+.DS_Store
