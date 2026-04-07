@@ -17,9 +17,6 @@ Explore relationships between lifestyle variables and sleep duration.
 Prepare the data for correlation analysis and KNN regression.
 
 Dataset
-The dataset is stored as an external CSV file in the project folder:
-
-Project/Group Project/data/sleeptime_prediction_dataset.csv
 
 It contains 2,000 observations with seven numerical columns:
 
@@ -48,14 +45,6 @@ The main research questions guiding the notebook are:
 
 - Which daily lifestyle habits have the strongest relationship with sleep duration?
 - Which daily lifestyle habits best predict sleep duration?
-
-Project Structure
-Project/
-└── Group Project/
-	├── data/
-	│   └── sleeptime_prediction_dataset.csv
-	├── project.zip
-	└── sleep_data.ipynb
 
 Requirements
 Package | Purpose
@@ -94,7 +83,9 @@ Open Project/Group Project/sleep_data.ipynb and run the notebook cells in order.
 The notebook loads the dataset from the data folder, displays the lifestyle variables, and generates repeated Altair plots comparing each habit against SleepTime.
 
 Key Takeaway
+
 This project uses exploratory analysis to study how common lifestyle habits relate to sleep duration. Rather than assuming which habit matters most, the notebook uses data visualization and statistical analysis to compare the strength of those relationships and support later predictive modeling.
 
 License
+
 This project is intended for educational use in a data science course.
